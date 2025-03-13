@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
 author: "Xavier Cruz"
-date: "Spring 2025"
+date: "Spring 2025" 
 output: html_document
 ---
 
@@ -20,14 +20,15 @@ davisdata <- read.csv(file="UCDavis.csv")
 ## Now with ggplot - first select the basic data
 
 ```{r}
-basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
+basicCN <- ggplot(ucdavis1,aes(x=Seat,y=alcohol))
 ```
 ## Now add in boxplot
 
 ```{r}
-basicCN + geom_boxplot()
+boxplot(alcohol~Seat,data=davisdata)
 ```
-  
+
+  The boxes are not disjoint. In the boxplot, the median of the back box is higher then that of the front and middle boxes. The front and middle boxes exhibit similar sizes, though the middle box contains a higher number of outliers compared to the front box.
   
 ### get fancy  
 
