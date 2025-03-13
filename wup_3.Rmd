@@ -55,4 +55,6 @@ The probability of obtaining these results is one of ten thousand. Further analy
 
 ## Conclusions
 
+I created a box plot to visually represent the consumption across different rows, highlighting the difference in consumption levels. The numerical summery revealed that the back row consumed twice as much alcohol compared to the other rows. When comparing three or more groups, a one way ANOVA is used to determine if there are significant differences among these. If the ANOVA test yields a p value between 0 and 1, further investigation is needed, which may involve additional analyses and plotted a revised  model that highlighted the distinct contrast in alcohol consumption in the back.
+
 
